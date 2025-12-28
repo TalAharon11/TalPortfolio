@@ -24,3 +24,141 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+body {
+  background: #05070f;
+  color: white;
+}
+:root{
+  --bg: #05070F;
+  --hud: #2FFFD6;
+  --accent: #6C63FF;
+}
+
+/* רקע בסיס */
+body{
+  background: var(--bg);
+  color: white;
+}
+
+/* שכבת רקע אנימטיבית */
+.bg-hud {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* Grid דק */
+.bg-hud::before{
+  content:"";
+  position:absolute;
+  inset:-40px;
+  background:
+    linear-gradient(to right, rgba(47,255,214,0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(47,255,214,0.06) 1px, transparent 1px);
+  background-size: 60px 60px;
+  transform: translate3d(0,0,0);
+  animation: gridMove 14s linear infinite;
+  opacity: 0.6;
+}
+
+/* Scanlines */
+.bg-hud::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(255,255,255,0.04),
+    rgba(255,255,255,0.04) 1px,
+    transparent 1px,
+    transparent 6px
+  );
+  opacity: 0.18;
+  mix-blend-mode: overlay;
+}
+
+/* תנועה עדינה */
+@keyframes gridMove{
+  from { transform: translate3d(0,0,0); }
+  to   { transform: translate3d(-60px,-60px,0); }
+}
+
+/* כותרות "גיימינגיות" */
+.hud-title{
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+/* Cursor גיימינגי */
+body{
+  cursor: crosshair;
+}
+
+button:hover{
+  cursor: pointer;
+}
+:root{
+  --bg:#05070F;
+  --hud:#2FFFD6;
+  --accent:#6C63FF;
+  --panel: rgba(0,0,0,0.35);
+}
+
+body{
+  background: var(--bg);
+  color: white;
+}
+
+/* רקע HUD אנימטיבי */
+.bg-hud {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.bg-hud::before{
+  content:"";
+  position:absolute;
+  inset:-40px;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(47,255,214,0.12), transparent 45%),
+    radial-gradient(circle at 80% 30%, rgba(108,99,255,0.10), transparent 45%),
+    linear-gradient(to right, rgba(47,255,214,0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(47,255,214,0.06) 1px, transparent 1px);
+  background-size: auto, auto, 60px 60px, 60px 60px;
+  animation: gridMove 16s linear infinite;
+  opacity: 0.75;
+}
+
+.bg-hud::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(255,255,255,0.05),
+    rgba(255,255,255,0.05) 1px,
+    transparent 1px,
+    transparent 7px
+  );
+  opacity: 0.18;
+  mix-blend-mode: overlay;
+}
+
+@keyframes gridMove{
+  from { transform: translate3d(0,0,0); }
+  to   { transform: translate3d(-60px,-60px,0); }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
