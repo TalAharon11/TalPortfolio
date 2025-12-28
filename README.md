@@ -1,101 +1,103 @@
-🎮 Tal Aharon — Software Developer Portfolio
+# 🎮 Tal Aharon — Playable Portfolio
 
-🌐 Live Site:
-👉 https://tal-portfolio-ten.vercel.app/
+A modern, interactive developer portfolio showcasing game development and application projects, built with a strong focus on **clean architecture**, **polished UI**, and **real-world technologies**.
 
-Personal portfolio website showcasing my projects, skills, and experience in game development, mobile applications, and full-stack web development.
+🔗 **Live Website:**  
+https://tal-portfolio-ten.vercel.app/
 
-Built with a strong focus on clean architecture, visual polish, and micro-interactions, inspired by gaming-style HUD design.
+---
 
-👩‍💻 About Me
+## ✨ Overview
 
-I’m a Software Developer with a B.Sc. in Computer Science, specializing in:
+This portfolio presents my work as a **Software Developer** specializing in:
 
-🎮 Game Development (Unity / C#)
+- 🎮 Game Development (Unity / C#)
+- 📱 Mobile Applications (Kotlin, Flutter)
+- 🌐 Web & Full-Stack Projects
 
-📱 Mobile Applications (Android, Flutter)
+The site is designed as a *playable experience*, allowing visitors to explore different “worlds” of projects with smooth transitions, subtle HUD-inspired UI elements, and responsive design.
 
-🌐 Full-Stack Web Development
+I am currently seeking a **full-time development position**.
 
-I’m highly motivated, hard-working, and passionate about building clean, maintainable, and scalable systems — from idea to polished product.
-Currently open to full-time development opportunities.
+---
 
-✨ Portfolio Highlights
-🎮 Gaming Projects
+## 🛠️ Tech Stack
 
-Hangman — Unity (C#)
-Classic word-guessing game with clean gameplay flow, UI feedback, and scalable code structure.
+**Frontend**
+- Next.js (App Router)
+- React
+- TypeScript
+- Tailwind CSS
 
-Space Invaders Clone — Unity (C#)
-2D arcade shooter demonstrating core gameplay systems, enemy waves, scoring, and difficulty progression.
+**UI & UX**
+- Custom HUD-style components
+- Micro-interactions (hover, focus, active states)
+- Responsive design (desktop & mobile)
+- Smooth transitions and visual feedback
 
-📱 Applications
+**Deployment**
+- Vercel
 
-MyRecipe — Android (Kotlin)
-MVVM-based Android app with REST API integration (Retrofit), offline support using Room, and clean separation of concerns.
+---
 
-PackMate — Flutter / Dart
-Cross-platform smart travel packing assistant using real weather data via REST API, persistent storage, animations, and responsive UI.
+## 🧠 Key Features
 
-🧠 Skills & Technologies
+- **World-based navigation**  
+  Separate views for *Gaming* and *Applications* projects
 
-Languages
-C, C++, C#, Python, JavaScript, Kotlin, SQL
+- **Expandable project cards**  
+  Short overview + detailed architecture, features, and tech stack
 
-Game Development
-Unity · Gameplay Programming · Game Systems · Performance Awareness
+- **Scalable structure**  
+  Easy to add new projects without refactoring the site
 
-Applications & Full-Stack
-Flutter · React · Node.js · REST APIs · SQL / MongoDB
+- **Performance-aware UI**  
+  Lightweight animations and clean component separation
 
-Work Style
-Fast learner · Team-oriented · Self-driven · Strong work ethic
+- **Mobile-first experience**  
+  Fully responsive with touch-friendly interactions
 
-🛠️ Tech Stack
+---
 
-Framework: Next.js (React)
+## 📂 Project Highlights
 
-Styling: Tailwind CSS
+### 🎮 Games
+- **Hangman** — Unity (C#)  
+  Clean gameplay loop, UI feedback, and maintainable structure
 
-Animations & UX: Custom micro-interactions, hover & focus effects
+- **Space Invaders Clone** — Unity (C#)  
+  Classic arcade mechanics, enemy waves, scoring, and win/lose states
 
-Design Approach: Gaming-inspired HUD UI
+### 📱 Applications
+- **MyRecipe** — Kotlin / Android  
+  MVVM architecture, REST API integration (Retrofit), Room offline storage, Hilt DI
 
-Deployment: Vercel
+- **PackMate** — Flutter  
+  Smart travel packing assistant with real weather API integration, animations, and persistent storage
 
-🚀 Features
+---
 
-Responsive design (Desktop & Mobile)
+## 🧩 Architecture Philosophy
 
-Smooth animations and subtle glow effects
+- Clear separation of concerns
+- Reusable, self-contained components
+- Scalable folder structure
+- Production-oriented mindset, even in portfolio projects
 
-Expandable project cards with detailed tech stacks
+---
 
-Clean, scalable component structure
+## 📬 Contact
 
-Deployed and production-ready
+Interested in collaboration or a full-time opportunity?
 
-📬 Contact
+- 📧 Email: **aharontal15@gmail.com**
+- 💼 LinkedIn: https://www.linkedin.com/in/tal-aharon-469263282/
+- 💻 GitHub: https://github.com/TalAharon11
 
-Interested in working together or discussing a role?
+---
 
-✉️ Email: aharontal15@gmail.com
+## © License
 
-💼 LinkedIn: https://www.linkedin.com/in/tal-aharon-469263282/
-
-🌐 Portfolio: https://tal-portfolio-ten.vercel.app/
-
-🔮 Future Improvements
-
-Add more gaming & application projects
-
-Project filtering & tags
-
-Resume download section
-
-Dark / light mode toggle (optional)
-
-Blog or dev-notes section
+This portfolio is open-source and intended for personal showcase purposes.
 
 © 2025 Tal Aharon
-Built with passion for clean code, great UX, and game-inspired design.
