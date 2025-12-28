@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🎮 Tal Aharon — Software Developer Portfolio
 
-## Getting Started
+🌐 Live Site:
+👉 https://tal-portfolio-ten.vercel.app/
 
-First, run the development server:
+Personal portfolio website showcasing my projects, skills, and experience in game development, mobile applications, and full-stack web development.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Built with a strong focus on clean architecture, visual polish, and micro-interactions, inspired by gaming-style HUD design.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+👩‍💻 About Me
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+I’m a Software Developer with a B.Sc. in Computer Science, specializing in:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🎮 Game Development (Unity / C#)
 
-## Learn More
+📱 Mobile Applications (Android, Flutter)
 
-To learn more about Next.js, take a look at the following resources:
+🌐 Full-Stack Web Development
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+I’m highly motivated, hard-working, and passionate about building clean, maintainable, and scalable systems — from idea to polished product.
+Currently open to full-time development opportunities.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+✨ Portfolio Highlights
+🎮 Gaming Projects
 
-## Deploy on Vercel
+Hangman — Unity (C#)
+Classic word-guessing game with clean gameplay flow, UI feedback, and scalable code structure.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Space Invaders Clone — Unity (C#)
+2D arcade shooter demonstrating core gameplay systems, enemy waves, scoring, and difficulty progression.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📱 Applications
+
+MyRecipe — Android (Kotlin)
+MVVM-based Android app with REST API integration (Retrofit), offline support using Room, and clean separation of concerns.
+
+PackMate — Flutter / Dart
+Cross-platform smart travel packing assistant using real weather data via REST API, persistent storage, animations, and responsive UI.
+
+🧠 Skills & Technologies
+
+Languages
+C, C++, C#, Python, JavaScript, Kotlin, SQL
+
+Game Development
+Unity · Gameplay Programming · Game Systems · Performance Awareness
+
+Applications & Full-Stack
+Flutter · React · Node.js · REST APIs · SQL / MongoDB
+
+Work Style
+Fast learner · Team-oriented · Self-driven · Strong work ethic
+
+🛠️ Tech Stack
+
+Framework: Next.js (React)
+
+Styling: Tailwind CSS
+
+Animations & UX: Custom micro-interactions, hover & focus effects
+
+Design Approach: Gaming-inspired HUD UI
+
+Deployment: Vercel
+
+🚀 Features
+
+Responsive design (Desktop & Mobile)
+
+Smooth animations and subtle glow effects
+
+Expandable project cards with detailed tech stacks
+
+Clean, scalable component structure
+
+Deployed and production-ready
+
+📬 Contact
+
+Interested in working together or discussing a role?
+
+✉️ Email: aharontal15@gmail.com
+
+💼 LinkedIn: https://www.linkedin.com/in/tal-aharon-469263282/
+
+🌐 Portfolio: https://tal-portfolio-ten.vercel.app/
+
+🔮 Future Improvements
+
+Add more gaming & application projects
+
+Project filtering & tags
+
+Resume download section
+
+Dark / light mode toggle (optional)
+
+Blog or dev-notes section
+
+© 2025 Tal Aharon
+Built with passion for clean code, great UX, and game-inspired design.
